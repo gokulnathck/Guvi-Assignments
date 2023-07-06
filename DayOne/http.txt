@@ -1,1 +1,32 @@
 HTTP 1.1 Vs HTTP 2
+
+HTTP 1
+    HTTP stands for HyperText transfer protocol. 
+    It is the application protocol that communicates between client and
+    server via internet. The first version of HTTP was released by 
+    Tim Berners Lee in 1996.
+
+    limitations:
+    * Before each request a connection using Transmission Control Protocol(TCP) was first
+        established to the server.
+        TCP connection => For a single TCP connection
+            * First client will initiate a request to the server.
+            * Then server will send back a response connection with acknowledgement to client.
+            * Then the client will send the confirmation of the acknowledgement to the server.
+    
+    * Ordering the requests, for a single page to load. For a single page to load there were
+        many request needs to be send to the server.
+
+HTTP 1.1
+    In HTTP 1.1 resolved lot of limitations provided by HTTP 1 and
+    was release in 1997 by Internet Engineering Task Force(IETF).
+    * Keep Alive connection is new feature introduced to avoid establishing multiple connections
+        to the same server, before requesting for files.
+    * Now a browser can have a maximum of 6 TCP connection to servers.
+    * Ordering for requests for multiple files, instead of sending it as each request
+        after a connection is established.
+    
+HTTP 2
+    In HTTP 2 simplified the overall process, was released by IETF in 2015.
+    
+    
