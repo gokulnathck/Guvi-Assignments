@@ -1,0 +1,30 @@
+JavaScript DataTypes
+* Primitive dataTypes
+* Non-Primitive dataTypes
+
+Primitive DataTypes:
+    * Number
+    * String
+    * Boolean
+    * Null
+    * Undefined
+    
+    These memory allocation
+
+Non-Primitive DataTypes:
+    * Array
+    * Object
+
+There are two types of memory allocation:
+    * Static memory allocation - Stack memory
+    * Dynamic memory allocation - Heap memory
+
+Stack Memory:
+    * Primitive dataTypes are stored in Stack memory.
+    * Stack memory are easy to access.
+    * They are immutable, meaning cannot be changed.
+
+Heap Memory:
+    * Non-Primitive dataTypes are stored in Heap memory.
+    * Compared to Stack memory, Heap memory is little slow to access.
+    * They are mutable, meaning are subject to change.
