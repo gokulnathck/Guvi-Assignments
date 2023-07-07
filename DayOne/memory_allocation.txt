@@ -24,7 +24,13 @@ Stack Memory:
     * Stack memory are easy to access.
     * They are immutable, meaning cannot be changed.
 
+    For a primitive dataType a reference variable is created and points to a address,
+    where the value is stored in stack memory.
+
 Heap Memory:
     * Non-Primitive dataTypes are stored in Heap memory.
     * Compared to Stack memory, Heap memory is little slow to access.
     * They are mutable, meaning are subject to change.
+
+    For a Non-primitive dataType a reference variable is created and,
+    where reference variable points to a head memory address.
