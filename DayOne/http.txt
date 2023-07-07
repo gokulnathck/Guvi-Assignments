@@ -28,5 +28,8 @@ HTTP 1.1
     
 HTTP 2
     In HTTP 2 simplified the overall process, was released by IETF in 2015.
+    * Binary framing is process introduced to handle multiple frames within a HTTP request.
+    * One TCP connection per client.
+    * In addition to single request from the client, server can push additional resources.
     
     
