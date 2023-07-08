@@ -8,8 +8,6 @@ Primitive DataTypes:
     * Boolean
     * Null
     * Undefined
-    
-    These memory allocation
 
 Non-Primitive DataTypes:
     * Array
