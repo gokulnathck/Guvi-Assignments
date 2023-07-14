@@ -1,0 +1,14 @@
+Window:
+    * This is global object present in a browser, with a set of
+        predifined attributes and methods attached to it.
+    * All declared global variable and functions are attached
+        to window object by default.
+    * The window represets the Browser Object Model(BOM).
+
+Document:
+    * This is a file representation in a browser,
+        document is commonly know as the Document Object Model(DOM).
+    * The file can be of any format.
+    * The Document object is a child of window,
+        therefore is also globally accessible.
+    * Mostly the document will be of tags like HTML, Body, etc.
